@@ -1,0 +1,60 @@
+/* DiceGame */
+.box {
+    width: 500px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BoardArea */
+.board-area {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+/* Board */
+.board-box {
+    width: 200px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.board-box>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.board-box>div p {
+    margin: 0;
+}
+.dice-style {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+/* ButtonArea */
+.btn-box {
+    display: flex;
+    gap: 10px;
+}
+.btn-box>button{
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.btn-box>button:nth-child(1){
+    background-color: darkgray;
+}
+.btn-box>button:nth-child(2){
+    background-color: red;
+}
+
