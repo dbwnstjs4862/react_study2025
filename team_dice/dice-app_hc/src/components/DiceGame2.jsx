@@ -57,7 +57,9 @@ const DiceGame2 = () => {
     // ...(전개연산자) 
     // ex) let user = {imgPath:"~", score:0}
 
-    // 출력
+    // 출력 ) imgPath:"~", score:0
+    // 변경 ) imgPath:"새로운 경로" , score:0
+    
     console.log(...user);
     
     setUser({
