@@ -4,7 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 // import Menubox from './components/Menubox'
 // import Memberinfo from './components/Memberinfo'
-import Count from './components/Count'
+// import Count from './components/Count'
+// import LikeCount from './components/LikeCount'
+// import LikeCount2 from './components/LikeCount2'
+import BattleNumber from './components/BattleNumber'
 
 /* 
   1. Component(컴포넌트)
@@ -51,7 +54,16 @@ function App() {
         </div>   */}
     
       {/* state 실습 */}
-      <Count/>
+      {/* <Count/> */}
+
+      {/* state 실습2 */}
+      {/* <LikeCount/> */}
+      
+      {/* state 실습3 */}
+      {/* <LikeCount2/> */}
+      
+      {/* state 실습4 */}
+      <BattleNumber/>
     </>
   )
 }
