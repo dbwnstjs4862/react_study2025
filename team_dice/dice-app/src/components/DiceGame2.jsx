@@ -50,7 +50,7 @@ const DiceGame = () => {
       ...user,
       imgPath:`${imgPath}${userIndex}.png`,
       score: userScore
-    });    
+    });
     setCom({
       ...com,
       imgPath:`${imgPath}${comIndex}.png`,
