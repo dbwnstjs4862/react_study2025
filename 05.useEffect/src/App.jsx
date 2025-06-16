@@ -1,0 +1,30 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import Count from './components/Count'
+import ChamChamCham from './components/ChamChamCham'
+import Weather from './components/Weather'
+import MovieList from './components/MovieList'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      {/* useEffect 실습 */}
+      {/* <Count/> */}
+
+      {/* useEffect 실습2 */}
+      {/* <ChamChamCham/> */}
+
+      {/* useEffect 실습3 */}
+      {/* <Weather/> */}
+
+      {/* useEffect 실습3 */}
+      <MovieList/>
+    </>
+  )
+}
+
+export default App
